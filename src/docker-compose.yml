@@ -6,11 +6,10 @@ services:
     container_name: desafio-frontend-api
     ports:
        - 5080:80
-       - 5443:443
     restart: always
     environment:
             - ASPNETCORE_ENVIRONMENT=develop
-            - ASPNETCORE_URLS=http://+:80,https://+:443
+            - ASPNETCORE_URLS=http://+:80
     build:
       context: .
       dockerfile: Gabriel.DesafioFrontEnd.Api/Dockerfile
