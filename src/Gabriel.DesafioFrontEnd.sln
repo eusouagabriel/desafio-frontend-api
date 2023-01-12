@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gabriel.DesafioFrontEnd.Api", "Gabriel.DesafioFrontEnd.Api\Gabriel.DesafioFrontEnd.Api.csproj", "{80B532F0-053B-432D-B077-F960037BF4EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{5F1F711D-A48F-4F3E-96EE-8EA49A7FA854}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{63D4C34C-9D75-48BB-84C3-8707AA5C5043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{6F80DD6C-1EB2-4670-B294-DCCC7BA5B911}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B532F0-053B-432D-B077-F960037BF4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B532F0-053B-432D-B077-F960037BF4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B532F0-053B-432D-B077-F960037BF4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B532F0-053B-432D-B077-F960037BF4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D4C34C-9D75-48BB-84C3-8707AA5C5043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D4C34C-9D75-48BB-84C3-8707AA5C5043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D4C34C-9D75-48BB-84C3-8707AA5C5043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D4C34C-9D75-48BB-84C3-8707AA5C5043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {975C8DA1-97FF-4B03-9644-5CB66193E7B0}
+	EndGlobalSection
+EndGlobal

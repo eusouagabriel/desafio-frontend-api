@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  gabriel.desafiofrontend.api:
+    image: ${DOCKER_REGISTRY-}gabriel-desafio-frontend-api
+    container_name: desafio-frontend-api
+    ports:
+       - 5080:80
+       - 5443:443
+    restart: always
+    environment:
+            - ASPNETCORE_ENVIRONMENT=develop
+            - ASPNETCORE_URLS=http://+:80,https://+:443
+    build:
+      context: .
+      dockerfile: Gabriel.DesafioFrontEnd.Api/Dockerfile
+  

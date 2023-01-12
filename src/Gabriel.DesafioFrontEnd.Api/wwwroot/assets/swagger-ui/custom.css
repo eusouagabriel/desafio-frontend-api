@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #fff;
+    font-family: Gordita,sans-serif;
+}
+
+.swagger-ui label {
+    color:#001e60 !important;
+}
+
+img[alt="Swagger UI"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: url('images/logo.webp');
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.topbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid #26d07c;
+}
+
+h2, h3 {
+    color: #001e60 !important;
+}
+
+.swagger-ui .info .title small.version-stamp {
+    background-color: #26d07c;
+    border-radius: 5px;
+}
+
+.swagger-ui .info .title small {
+    background: #235E6F;
+    border-radius: 5px !important;
+}
+
+.opblock-summary-get > button > span.opblock-summary-method {
+    background-color: #235E6F !important;
+}
+
+.opblock-summary-post > button > span.opblock-summary-method {
+    background-color: #0F8A5F !important;
+}
+
+.opblock-summary-delete > button > span.opblock-summary-method {
+    background-color: #CC231E !important;
+}
