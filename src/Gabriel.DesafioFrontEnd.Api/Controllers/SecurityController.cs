@@ -13,18 +13,18 @@ namespace Gabriel.DesafioFrontEnd.Api.Controllers
         /// <summary>
         /// Obtem o bearer token para autenticação e autorização na api.
         /// </summary>
-        /// <param name="appKey"> A chave do app autorizado a utilizar os recursos nesta api </param>
-        /// <param name="secretKey">O segredo gerado para o app autorizado a utilizar os recursos da api</param>
+        /// <param name="clientId"> A chave do app autorizado a utilizar os recursos nesta api </param>
+        /// <param name="clientSecret">O segredo gerado para o app autorizado a utilizar os recursos da api</param>
         /// <returns> retorna o token para ser utilizado nos recursos disponíveis na api</returns>
-        /// /// <remarks>
+        /// <remarks>
         /// Exemplo:
         /// 
-        ///     GET /security?appKey={appKey}&amp;secretKey={secretKey}  
+        ///     GET /token?clientId=01878fb6-4206-40e0-b195-46f465a3a65b&amp;clientSecret=38c8a848d23e34f281b6dfcd35b11d79f0dbdbd0372269b38f46b6a5e9fe6006  
         ///     
         ///     Para este desafio o app registrado possui os seguintes parametros:
         ///     
-        ///     cliente_id = 01878fb6-4206-40e0-b195-46f465a3a65b
-        ///     client_secret = 38c8a848d23e34f281b6dfcd35b11d79f0dbdbd0372269b38f46b6a5e9fe6006
+        ///     clientId = 01878fb6-4206-40e0-b195-46f465a3a65b
+        ///     clientSecret = 38c8a848d23e34f281b6dfcd35b11d79f0dbdbd0372269b38f46b6a5e9fe6006
         ///     
         /// </remarks>
         /// <response code="200">

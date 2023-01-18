@@ -16,6 +16,8 @@ builder.Services.AddAutoMapper(x =>
     x.AddProfile(new AppMapProfile(builder.Configuration));
 });
 
+builder.Services.AddCors();
+
 // Add services to the container.
 builder
     .Services
@@ -89,6 +91,11 @@ app.UseSwaggerUI(opt =>
 
 app.UseSeedCustomers(app.Services);
 app.UseHttpsRedirection();
+
+app.UseCors(options => options
+.AllowAnyHeader()
+.AllowAnyOrigin()
+.AllowAnyMethod());
 
 app.UseAuthorization();
 
